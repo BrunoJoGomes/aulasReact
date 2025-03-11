@@ -1,0 +1,9 @@
+Criar projeto em react:
+node -v
+cd desktop
+npm create vite@latest meu-app
+react
+javascript
+cd meu-app
+npm install
+npm run dev
