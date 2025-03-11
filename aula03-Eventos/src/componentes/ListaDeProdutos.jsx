@@ -1,6 +1,7 @@
 import React from 'react';
 
 // Exercício 3 (array simples)
+// Crie uma lista não ordenada de um array simples
 const arrProdutos = ["Televisão","Celular","Computador","Liquidificador"];
 
 export function ListaDeProdutos(){

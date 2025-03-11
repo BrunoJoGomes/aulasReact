@@ -28,10 +28,17 @@ function App() {
       {/* <p>{objCurso.detalhes}</p>
       <p>{vNumeros[0]}</p> */}
 
-      {/* Exercício 1 */}
+      {/* Exercício 1 
+        Crie dois componentes: Header e Footer. 
+        O Header deve exibir um título e um subtítulo recebidos por props, e o Footer deve exibir um 
+        rodapé com o ano atual e um texto recebido por props.
+      */}
       <Header titulo="minha header" subtitulo="meu subtítulo"/>
 
-        {/* Exercício 2 */}
+        {/* Exercício 2 
+          Crie um componente que renderize três botões que recebam props para mudar seu texto e 
+          sua cor
+        */}
         <Botao textDisplay="Botão 1 :)" cor="blue" isDisabled={false}/>
         <Botao textDisplay="Botão 2 :)" cor="pink"/>
         <Botao textDisplay="Botão 3 :)" cor="green"/>
